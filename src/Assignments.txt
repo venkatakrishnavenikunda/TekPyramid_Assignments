@@ -13,3 +13,10 @@ Assignment-2 (04-11-25)
 9. Java Program to Sort Elements in an Array Using Bubble Sort
 10. Java Program to Find the Total Number of Punctuations Present in a String
 
+
+Assignment-3 (05-11-25)
+11. Java Program to Find the Total Number of Vowels Present in a String
+12. Java Program to Find the Total Number of Consonants Present in a String
+13. Java Program to Determine if Two Strings are Anagrams
+14. Java Program to Divide a String into N Parts
+15. Java Program to Find All Subsets of a String (Example: Subsets of "FUN" -> F, FU, FUN, U, UN, N)
