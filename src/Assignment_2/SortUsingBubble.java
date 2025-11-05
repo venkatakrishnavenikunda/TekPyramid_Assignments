@@ -19,12 +19,12 @@ import java.util.Arrays;
 //    }
 //}
 
-// k
-//Bubble sort Using one for loop
+
+//Using one for loop
 public class SortUsingBubble {
     public static void main(String[] args){
         int[]a={16,9,5,4,7,12,3,20,15};
-        System.out.println("Before sorting:"+Arrays.toString(a));
+        System.out.println(Arrays.toString(a));
         for(int i=0;i<a.length-1;i++){
             if(a[i]>a[i+1]){
                 int temp=a[i];
@@ -33,7 +33,7 @@ public class SortUsingBubble {
                 i=-1;
             }
         }
-        System.out.println("After sorting:"+Arrays.toString(a));
+        System.out.println(Arrays.toString(a));
     }
 }
 
