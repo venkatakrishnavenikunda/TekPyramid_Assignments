@@ -49,30 +49,50 @@ package Assignment_3;
 
 
 //3. To divide string into N parts  using if condition if string length is not divided with n otherwise use else condition
+//public class DivideStringIntoNParts {
+//    public static void main(String[] args){
+//        String s="HELLOWORLD";
+//        int n=3;
+//        int len=s.length();
+//        int size=len/n;
+//        //System.out.println(size);
+//        if(len%n!=0){
+//            System.out.println("Using if condition");
+//            int i;
+//            for(i=0;i+size<len;i+=size){
+//                System.out.println(s.substring(i,i+size));
+//            }
+//            if(i<len) {
+//                System.out.println("Extra characters after dividing "+n+" parts");
+//                System.out.println(s.substring(i));
+//            }
+//        }
+//        else{
+//            System.out.println("Using else condition");
+//            for(int i=0;i<len;i+=size){
+//                System.out.println(s.substring(i,i+size));
+//            }
+//            System.out.println();
+//        }
+//    }
+//}
+
+
+
+
+//By using less variables
 public class DivideStringIntoNParts {
-    public static void main(String[] args){
-        String s="HELLOWORLD";
+    public static void main(String[] args) {
+        String s="Helloworld";
         int n=3;
         int len=s.length();
-        int size=len/n;
-        //System.out.println(size);
-        if(len%n!=0){
-            System.out.println("Using if condition");
-            int i;
-            for(i=0;i+size<len;i+=size){
-                System.out.println(s.substring(i,i+size));
-            }
-            if(i<len) {
-                System.out.println("Extra characters after dividing "+n+" parts");
-                System.out.println(s.substring(i));
-            }
+        int parts=len/n;
+        int rem=0;
+        for(int i=0; i+parts<=len;i+=parts) {
+            System.out.println(s.substring(i,i+parts));
+            rem=i+parts;
         }
-        else{
-            System.out.println("Using else condition");
-            for(int i=0;i<len;i+=size){
-                System.out.println(s.substring(i,i+size));
-            }
-            System.out.println();
-        }
+        if(len%n!=0)
+            System.out.println(s.substring(rem));
     }
 }

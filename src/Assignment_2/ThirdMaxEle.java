@@ -3,10 +3,10 @@ package Assignment_2;
 
 public class ThirdMaxEle {
     public static void main(String[] args){
-        int[]a={3,5,8,22,12,20};
-        int max1=0;
-        int max2=0;
-        int max3=0;
+        int[]a={3,5,18,22,12,20};
+        int max1=a[0];
+        int max2=a[0];
+        int max3=a[0];
         for(int i=0;i<a.length;i++){
             if(a[i]>max1){
                 max3=max2;
