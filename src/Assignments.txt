@@ -35,9 +35,19 @@ Assignment-4(06-11-25)
 
 
 
-
 Assignment-5(07-11-25)
 24. Java Program to Find the Most Repeated Word in a Text File
 25. Java Program to Add Two Matrices
 26. Java Program to Multiply Two Matrices
 27. Java Program to Find the Transpose of a Matrix
+
+
+
+
+DSA_Assignemt (16-11-25)
+1. Singly Linked List
+2. Doubly Linked List
+3. Circular Linked List
+4. Slow/Fast Pointer
+5. Palindrome List
+6. Merge Sorted List

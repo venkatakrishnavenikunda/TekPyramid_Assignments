@@ -26,7 +26,7 @@ public class LCToUCToLC {
     public static void main(String[] args){
         String s="Java ProgramMing lanGuage";
         String s2="";
-        s=s.replaceAll("\\s+","");
+        //s=s.replaceAll("\\s+","");
 
         for(char ch:s.toCharArray()){
             if(Character.isUpperCase(ch))
